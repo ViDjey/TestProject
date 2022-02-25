@@ -125,7 +125,7 @@
             alert(data['errors']);
             if (data['success']) {
               form.reset();
-              window.location.reload(true);}//обновление страницы синхронно!
+              window.location.reload(true);}
             })
             .catch(err => console.log(err))
           })
@@ -150,7 +150,7 @@
               console.log(data);
               alert(data['errors']);
               if (data['success']) {
-                window.location.reload(true);}//обновление страницы синхронно!
+                window.location.reload(true);}
               })
               .catch(err => console.log(err))
             })
