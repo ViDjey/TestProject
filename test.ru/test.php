@@ -58,7 +58,7 @@
         padding: 8px;
         color: #FF0000;
         background-color:#FFFAFA;
-        border-radius:0 px; 
+        border-radius:0px; 
         border: 0px; 
       }
       button: hover {background-color: #6495ED}
